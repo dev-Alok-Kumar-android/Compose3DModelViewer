@@ -151,7 +151,11 @@ fun App() {
                 }
                 key(soundEnabled) {
                     My3DModelViewer(
-                        modifier = Modifier.fillMaxSize(), soundEnabled = soundEnabled
+                        modifier = Modifier.fillMaxSize(),
+                        soundEnabled = soundEnabled,
+                        minZoom = -20f,
+                        maxZoom = 0.7f,
+                        zoomSpeed = 0.0015f,
                     )
                 }
 
