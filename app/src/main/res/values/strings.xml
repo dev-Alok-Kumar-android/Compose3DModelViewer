@@ -1,9 +1,7 @@
 <resources>
     <string name="app_name">Tuto3d</string>
-    <string name="robot">Robot</string>
-    <string name="robot_info">
-        Meet your robot buddy 🤖 \n
-        Tap the robot to interact.
+    <string name="model_info">
+        Tap the model to interact.
         Double-tap for a surprise.
         Pinch or drag to explore.
     </string>

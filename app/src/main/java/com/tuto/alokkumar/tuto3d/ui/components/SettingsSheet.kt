@@ -106,16 +106,16 @@ fun SettingsSheet(
                             }
 
                         }
-                        var robotInfoShowing by remember { mutableStateOf(false) }
+                        var modelInfoShowing by remember { mutableStateOf(false) }
                         Text(
-                            text = if (!robotInfoShowing) {
+                            text = if (!modelInfoShowing) {
                                 "Help / Info  ↓"
                             } else {
-                                stringResource(R.string.robot) + " ↑ \n" + stringResource(R.string.robot_info)
+                                  "Help / Info ↑ \n" + stringResource(R.string.model_info)
                             }, modifier = Modifier
                                 .fillMaxWidth()
                                 .clickable {
-                                    robotInfoShowing = !robotInfoShowing
+                                    modelInfoShowing = !modelInfoShowing
                                 }, textAlign = TextAlign.Center
                         )
                     }
